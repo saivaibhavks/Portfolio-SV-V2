@@ -26,9 +26,19 @@ export default function Page() {
                 text={`Hi, I'm Sai 👋`}
               />
               <BlurFadeText
-                className="max-w-[600px] md:text-xl"
+                className="max-w-[600px] md:text-2xl"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
+              />
+              <BlurFadeText
+                className="max-w-[600px] md:text-lg "
+                delay={BLUR_FADE_DELAY}
+                text={DATA.sub}
+              />
+              <BlurFadeText
+                className="max-w-[600px] md:text-lg "
+                delay={BLUR_FADE_DELAY}
+                text={DATA.sub2}
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
